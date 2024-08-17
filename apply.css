@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.first_line{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-image: none;
+}
+.heading_1{
+    font-size: 35px;
+    margin-right: 400px;
+    font-weight: 700;
+     
+
+}
+.font_position{
+    text-align: center;
+    
+}
+.font_1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box_1{
+    background-color: white;
+    font-size: 20px;
+    padding: 12px 14px;
+    border-radius: 5px;
+    
+}
+.button_color{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding: 12px 14px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 4px;
+}
+header{
+    background-image: url(assets/Hero-bg.png);
+    background-position: top;
+    background-color: white;
+    padding-bottom: 200px;
+    margin-top: 100px;
+
+}
+       /* css:design 2 */
+ main{
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 70px;
+ }      
+.first_section{
+    background-color: rgb(245, 247, 248);
+    padding-bottom: 23px;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+
+}
+.design_2{
+    text-align: center;
+    padding-top: 80px;
+}
+.web_dev{
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+.lorem_Ipsum{
+    color: #757575;
+    /* text-align: center; */
+    line-height: 1.2;
+    font-size: 23px;
+}
+.sec_part{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+    box-shadow: right  rgb(245, 247, 248);
+    padding: 40px;
+    margin: 70px;
+}
+.topic_1{
+    font-size: 23px;
+   padding-bottom: 20px;
+}
+.box_learn{
+    /* border-radius: 5px; */
+    font-size: 20px;
+    margin: auto;
+    padding: 12px 14px;
+}
+        /* missing css design 3*/
+
+         /* design 4 */
+.icon_design{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    margin-right: 30px;
+
+} 
+.html_icon{
+    background-color: rgb(254, 236, 245);
+    padding: 40px;
+    border-radius: 12px;
+    height: 250px;
+    width: 325px;
+    /* box-shadow: none; */
+}
+.css_icon{
+    background-color: rgb(244, 250, 254);
+    padding: 40px;
+    border-radius: 12px;
+    height: 250px;
+    width: 325px;
+
+} 
+.js_icon{
+    background-color: rgb(252, 250, 251);
+    padding: 40px;
+    border-radius: 12px;
+    height: 250px;
+    width: 325px;
+}      
+            /* design 5 */
+.border_1{
+    display: flex;
+    border: 1px solid #757575;
+    padding: 40px;
+    margin:23px;
+    border-radius: 12px;
+}  
+.design{
+    font-size: 20px;
+    font-weight: 700;
+}  
+.lorem_Ip{
+    font-size: 15px;
+    color: #757575;
+}   
+        /* design 6      */
+.last_pic{
+    background-image: url(assets/handshake.jpg);
+    max-width: 1100px;
+    text-align: center;
+    padding: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+}
+.i_need{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+}
+.data_entry{
+    display: flex;
+}
+.box_submit{
+    font-size: medium;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    color: black;
+    font-weight: 500;
+    width: 100px;
+}
+
+
+
+           /* Last Design */
+footer{
+    display: flex;
+    background-color: rgb(246, 250, 254);
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+}
+.last_text{
+    font-size: 22px;
+    padding: 20px;
+    margin-right: 500px;
+}
+.last_icon{
+    margin-right: 30px;
+    text-align: center;
+    
+}
