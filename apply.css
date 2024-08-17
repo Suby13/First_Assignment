@@ -1,58 +1,54 @@
-*{
+ *{
     margin: 0px;
     padding: 0px;
-    
-}
-
-
-.first_line{
+    } 
+.main_header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin-left: 50px;
-    margin-right: 50px; */
-    margin-top: 30px;
-    margin-bottom: 20px;
-    background-image: none;
+    margin-top: 23px;
+    margin-bottom: 40px;
+    background-color: white;
+  
 }
 .heading_1{
-    font-size: 35px;
-    margin-right: 400px;
-    font-weight: 700;
-     
+    font-size: 40px;
 
 }
-.font_position{
-    text-align: center;
-    
-}
-.font_1{
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-}
 .box_1{
-    background-color: white;
-    font-size: 20px;
-    padding: 12px 14px;
-    border-radius: 5px;
-    
-}
-.button_color{
-    background-color: rgb(14, 14, 14);
-    color: white;
-    padding: 12px 14px;
-    font-size: 20px;
-    text-align: center;
-    align-items: center;
-    border-radius: 4px;
+    border-radius: 8px;
+        font-size: 25px;
+        padding: 18px;
+        background-color: #fff;
+        font-family: sans-serif;
 }
 header{
     background-image: url(assets/Hero-bg.png);
-    background-position: top;
-    background-color: white;
     padding-bottom: 200px;
-    margin-top: 100px;
+    
+}
+.font_position{
+    text-align: center;
+    align-items: center;
 
+    }
+.para_1{
+    font-size: 53px;
+    font-weight: 600;
+    word-spacing: 7px;
+}
+.lorem_Ipsum{
+    color: #757575;
+    line-height: 1.6;
+}
+.button_color{
+    background-color: #000;
+    padding: 12px 14px;
+    text-align: center;
+    align-items: center;
+    border-radius: 7px;
+    font-size: 20px;
+    color:white;
 }
        /* css:design 2 */
  main{
@@ -63,8 +59,7 @@ header{
 .first_section{
     background-color: rgb(245, 247, 248);
     padding-bottom: 23px;
-    /* margin-top: 100px;
-    margin-bottom: 100px; */
+    
 
 }
 .design_2{
@@ -79,9 +74,10 @@ header{
 }
 .lorem_Ipsum{
     color: #757575;
-    /* text-align: center; */
     line-height: 1.2;
     font-size: 23px;
+    padding: 20px;
+    text-align: center;
 }
 .sec_part{
     display: flex;
@@ -90,25 +86,35 @@ header{
     box-shadow: right  rgb(245, 247, 248);
     padding: 40px;
     margin: 70px;
+    
 }
 .topic_1{
     font-size: 23px;
    padding-bottom: 20px;
 }
 .box_learn{
-    /* border-radius: 5px; */
     font-size: 20px;
     margin: auto;
     padding: 12px 14px;
+    background-color: rgb(255, 253, 253)
 }
-        /* missing css design 3*/
-
+.i_frame{
+    border: 1px  solid #757575;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px 5px 14px 14px;
+}  
+.shadow_box{
+    border-radius: 12px;
+}      
          /* design 4 */
 .icon_design{
     display: flex;
     margin-top: 40px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-right: 30px;
+    margin-bottom: 50px;
+    border-radius: 12px;
 
 } 
 .html_icon{
@@ -117,7 +123,7 @@ header{
     border-radius: 12px;
     height: 250px;
     width: 325px;
-    /* box-shadow: none; */
+    
 }
 .css_icon{
     background-color: rgb(244, 250, 254);
@@ -125,7 +131,6 @@ header{
     border-radius: 12px;
     height: 250px;
     width: 325px;
-
 } 
 .js_icon{
     background-color: rgb(252, 250, 251);
@@ -147,40 +152,58 @@ header{
     font-weight: 700;
 }  
 .lorem_Ip{
-    font-size: 15px;
+    font-size: 18px;
     color: #757575;
+    word-spacing: 6px;
 }   
         /* design 6      */
 .last_pic{
     background-image: url(assets/handshake.jpg);
-    max-width: 1100px;
+    width: 900px;
     text-align: center;
     padding: 100px;
-    border-radius: 10px;
-    overflow: hidden;
-    background-size: cover;
+    border-radius: 15px;
+height: 100px;
 }
 .i_need{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color:white;
 }
+.lorem_Ip_1{
+    font-size: 18px;
+    color: rgb(212, 210, 210);
+    word-spacing: 6px;
+}   
 .data_entry{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
+.input_message{
+    
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        width: 400px;
+        text-align:left;
+    }
 .box_submit{
     font-size: medium;
     background-color: white;
     padding: 15px;
     border-radius: 8px;
-    color: black;
+    color: solid black;
     font-weight: 500;
     width: 100px;
+    align-items: left 40px;
 }
 
-
-
-           /* Last Design */
+       /* Last Design */
 footer{
     display: flex;
     background-color: rgb(246, 250, 254);
